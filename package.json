@@ -1,0 +1,17 @@
+{
+  "name": "esv-api-extension",
+  "version": "1.0.0",
+  "description": "Call ESV API to copy text to your system clipboard",
+  "main": "fetch-esv.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "Chris Pennington Twitter @cpenned",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "dotenv": "^10.0.0",
+    "clipboardy": "^3.0.0"
+  }
+}
